@@ -34,5 +34,6 @@ class Wheel(object):
     def diameter(self):
         return self.rim + (self.tire * 2)
 
+
 print(Gear(52, 11, 26, 1.5).gear_inches)
 print(Gear(52, 11, 24, 1.25).gear_inches)
